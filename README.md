@@ -1,0 +1,43 @@
+<html> 
+<head>
+<title>Biró Benedek</title>
+<body bgcolor=black 
+<div style="background-image: url('https://i.imgur.com/z9n4R1K.png');">
+
+
+<center>
+<font face="Times New Roman" size=7 color="black"> <b>Biró Benedek<br> </font>
+</center>
+
+
+<a href=https://budapest.piarista.hu target=_blank> <font face"Times New Roman" size=6 color=black> <b>Iskolám</u><br> 
+<img src="https://budapest.piarista.hu/uploads/content/109/kepek/c_piarista_gimnazium_01.jpg" width="250" height="250" alt="Iskolám" border="2">
+
+
+
+<p><font face"Times New Roman" size=6 color=black></p>
+<a starget=_blank> <font face"Times New Roman" size=6 color=black> <b>Rólam</u><br> 
+
+
+<font face"Times New Roman" size=4 color=black>
+<table ALIGN=LEFT BORDER=2 CELLSPACING=2 CELLPADDING=2
+COLS=1 WIDTH="69%" BGCOLOR="white" BORDERCOLOR="black">
+<p>
+<tr>
+<td><b>Születési (év/hó/nap) </b></td>
+<td><b>Születési hely</b></td>
+<td><b>Bankszámlaszám</b></td>
+<td><b>Bemutatkozás</b></td>
+<td><b>Hobbijaim</b></td>
+
+
+</tr>
+<td>2008/05/25 </td>
+<td>Budapest </td>
+<td>10700457-74333990-51100005 </td>
+<td> Budapesten élek, cserkészcsapat és plébániai közösség tagja vagyok. </td>
+<td> Úszás, fotózás </td>
+<table>
+
+</head>
+</html>
