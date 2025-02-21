@@ -4,55 +4,38 @@
 <body bgcolor=white
 <div style="background-image: url('https://i.imgur.com/z9n4R1K.png'
 
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="hu">
 <head>
-    </div>
-
-    
-    <div class="search-container">
-        <input type="text" class="search-input" placeholder="Keresés..." oninput="filterResults()">
-        <div class="search-results" id="results"></div>
-    <div class="dropdown">
-        <button class="search-input">Menü</button>
-        <div class="dropdown-content">
-            <a href="https://musketas.github.io/BiroBenedek/">Főoldal</a>
-            <a href="https://www.youtube.com/@Musketas_">YouTube</a>
-            <a href="https://www.instagram.com/_biro.benedek_">Instagram</a
-        </div>
-    </div>
-
-    <script>
-        const items = [
-            { name: "Főoldal", url: "https://musketas.github.io/BiroBenedek/" },
-            { name: "YouTube", url: "https://www.youtube.com/@Musketas_" }
-            { name: "Instagram", url: "https://www.instagram.com/_biro.benedek_" },
-        ];
-        const resultsContainer = document.getElementById("results");
-
-        function filterResults() {
-            const query = document.querySelector(".search-input").value.toLowerCase();
-            resultsContainer.innerHTML = "";
-            if (query) {
-                const filteredItems = items.filter(item => item.name.toLowerCase().includes(query));
-                if (filteredItems.length > 0) {
-                    resultsContainer.style.display = "block";
-                    filteredItems.forEach(item => {
-                        const div = document.createElement("div");
-                        div.textContent = item.name;
-                        div.onclick = () => window.location.href = item.url;
-                        resultsContainer.appendChild(div);
-                    });
-                } else {
-                    resultsContainer.style.display = "none";
-                }
-            } else {
-                resultsContainer.style.display = "none";
-            }
-        }
-    </script>
-</body>
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fehér UI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Kezdőlap</a></li>
+                <li><a href="#">Rólunk</a></li>
+                <li><a href="#">Szolgáltatások</a></li>
+                <li><a href="#">Kapcsolat</a></li>
+                <li class="search-container">
+                    <input type="text" placeholder="Keresés...">
+                    <button type="submit">🔍</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Üdvözlünk a weboldalon!</h1>
+            <p>Ez egy egyszerű fehér alapú UI minta.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Minden jog fenntartva</p>
+    </footer>
 <center>
 <font face="Times New Roman" size=7 color="black"> <b>Biró Benedek<br> </font>
 </center>
